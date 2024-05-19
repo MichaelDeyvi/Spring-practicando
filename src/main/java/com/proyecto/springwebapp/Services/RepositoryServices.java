@@ -21,7 +21,7 @@ public class RepositoryServices {
             Product newProduct = new Product(p.getId(), p.getName(), ImPrice.longValue());
             return newProduct;
         }).collect(Collectors.toList());
-    }
+    } 
 
 
     public Product findById(Long id){
